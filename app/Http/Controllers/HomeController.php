@@ -3,10 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Trip;
 
 class HomeController extends Controller
 {
     public function index() {
-        return view('christmas_trips');
+
+        $trips = Trip::all();
+
+        return view('christmas_trips', compact('trips'));
     }
 }
