@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('christmas_trips');
-})->name('christmas_trips');
+Route::get('/', 'HomeController@index');

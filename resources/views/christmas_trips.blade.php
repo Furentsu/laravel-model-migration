@@ -3,5 +3,5 @@
 @section('title', 'Christmas Offers')
 
 @section('content')
-    <h1 class="p-5">test</h1>
+    <h1 class="p-5">lol</h1>
 @endsection
